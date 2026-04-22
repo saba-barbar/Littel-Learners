@@ -1,0 +1,116 @@
+.awards-slider-wrapper {
+    margin: 0px 162px 154px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 100px;
+    justify-content: center;
+}
+
+.AwardsContainer {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+.award-slide .OurBenefetsCard {
+    height: 402px;
+}
+
+.award-slide {
+    flex: 0 0 calc((100% - 50px) / 3);
+    width: 30.25%;
+    height: 402px;
+    display: flex;
+}
+
+.award-slide>* {
+    width: 100%;
+}
+
+.small-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.small-container p {
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 22px;
+    color: #1A1A1A;
+}
+
+.award-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.slider-btn {
+    width: 58px;
+    height: 58px;
+    border-radius: 8px;
+    border: 2px solid #333333;
+    padding: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 1440px) {
+    .awards-slider-wrapper {
+        margin: 0px 80px 154px;
+        gap: 40px;
+    }
+
+    .award-slide .OurBenefetsCard {
+        height: 322px;
+    }
+
+    .award-slide {
+        flex: 0 0 calc((100% - 40px) / 3);
+        height: 322px;
+    }
+
+    .small-container p {
+        font-size: 18px;
+    }
+
+    .award-btn {
+        gap: 16px;
+    }
+
+    .slider-btn {
+        width: 48px;
+        height: 48px;
+        border-radius: 6px;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 992px) {
+        .awards-slider-wrapper {
+        margin: 50px 16px 80px;
+        gap: 30px;
+    }
+
+    .award-slide .OurBenefetsCard {
+        width: 100%;
+        height: 274px;
+    }
+
+    .award-slide {
+        flex: 0 0 100% ;
+        height: 330px;
+        width: 100% !important;
+    }
+
+}

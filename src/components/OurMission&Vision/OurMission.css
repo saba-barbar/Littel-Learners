@@ -1,0 +1,95 @@
+.missionContainer {
+    margin: 0px 162px 154px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.m-v-Card {
+    width: 48.12%;
+    height: 410px;
+    max-height: 410px;
+    height:auto;
+    padding: 60px;
+    border-radius: 12px;
+    border: 2px solid #262626;
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    background-color: white;
+}
+
+.subVission-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.subVission-container h3 {
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    color: #1A1A1A;
+}
+.m-v-Card p {
+
+    font-weight: 500;
+    font-size: 20px;
+    color: #333333;
+}
+@media (max-width:1440px) {
+    .missionContainer {
+    margin: 80px 80px 0px;
+    gap: 40px;
+}
+
+.m-v-Card {
+    /* width: 48.12%; */
+    min-height: 330px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px 2px #1E1E1E;
+}
+
+.subVission-container {
+    margin-bottom: 50px;
+}
+.subVission-container img{
+    width: 60.434px;
+    height: 60px;
+}
+.subVission-container h3 {
+    font-size: 38px;
+
+}
+.m-v-Card p {
+    font-size: 16px;
+}
+}
+@media (max-width:992px) {
+    .missionContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    margin: 50px 16px 0px;
+}
+
+.m-v-Card {
+    width: 100%;
+    min-height: 386px;
+    padding: 40px;
+}
+
+.subVission-container {
+    margin-bottom: 40px;
+}
+.subVission-container img{
+    width: 50.362px;
+    height: 50px;
+}
+.subVission-container h3 {
+    font-size: 30px;
+
+}
+}

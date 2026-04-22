@@ -1,0 +1,59 @@
+.toBanner {
+    margin-bottom: 14px;
+    aspect-ratio: 32 / 1;
+    background-image: url("/images/header-image.png");
+    background-color:#ffdecc;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    border: 2px solid var(--text);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    position: relative;
+}
+
+.toBannerText {
+    color: var(--text);
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: rgba(255, 222, 204, 0.01);
+}
+
+.toBanner-logo {
+    color: var(--text);
+    width: 18px;
+    height: 21px;
+    background-color: rgba(255, 222, 204, 0.01);
+}
+/* @media (max-width: 1440px){
+.toBanner {
+    aspect-ratio: 30 / 1;
+    border-radius: 6px;
+}
+.toBannerText {
+    font-size: 16px;
+}
+.toBanner-logo {
+    width: 14.4px;
+    height: 16.7px;}
+} */
+@media (max-width: 992px){
+.toBanner {
+    aspect-ratio: 20 / 1;
+    border-radius: 6px;
+    margin-bottom: 14px;
+    background-image: url("/images/banner-mobile.png");
+
+
+}
+.toBannerText {
+    font-size: 14px;
+}
+.toBanner-logo {
+    width: 12px;
+    height:14px;}
+}

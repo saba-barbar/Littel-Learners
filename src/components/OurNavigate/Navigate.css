@@ -1,0 +1,126 @@
+.NavigateContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 50px;
+    padding: 100px 162px;
+}
+
+.navigateCard {
+    width: calc(50% - 25px);
+    border: 2px solid #262626;
+    border-radius: 12px;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 0px 2px #1E1E1E;
+    background: white;
+
+}
+
+.navigateCard div {
+    text-align: center;
+    width: 100%;
+}
+
+.navigateCard div h3 {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    text-align: center;
+    color: #1A1A1A;
+    margin-bottom: 30px;
+}
+
+.navigateCard div img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.navigateCard div p {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #4C4C4D;
+}
+
+.navigateCard button {
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid #262626;
+    box-shadow: 4px 4px 0px 2px #1E1E1E;
+    background: #FFDECC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (max-width:1440px) {
+    .NavigateContainer {
+        gap: 40px;
+        padding: 80px;
+    }
+
+    .navigateCard {
+        border-radius: 10px;
+        padding: 60px;
+        gap: 60px;
+    }
+
+    .navigateCard div h3 {
+        font-size: 34px;
+        margin-bottom: 24px;
+    }
+
+    .navigateCard div img {
+        margin-bottom: 40px;
+    }
+
+    .navigateCard div p {
+        font-size: 16px;
+    }
+
+    .navigateCard button {
+        border-radius: 8px;
+        font-size: 18px;
+        box-shadow: 2px 2px 0px 2px #1E1E1E;
+    }
+}
+
+
+@media (max-width:992px) {
+    .navigateCard {
+        width: 100%;
+        padding: 40px;
+        gap: 40px;
+    }
+
+    .navigateCard div h3 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .navigateCard div img {
+        margin-bottom: 30px;
+    }
+
+
+    .navigateCard button {
+        border-radius: 6px;
+        font-size: 16px;
+    }
+    .NavigateContainer {
+        padding: 16px;
+    }
+}

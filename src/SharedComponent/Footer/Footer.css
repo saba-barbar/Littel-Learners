@@ -1,0 +1,260 @@
+.footerContainer {
+    background: #fff;
+    border: 2px solid #262626;
+    border-radius: 12px;
+    margin: 50px;
+    padding: 100px 113px 40px;
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+
+}
+
+.footerTop {
+    display: grid;
+    grid-template-columns: 1.1fr 1.9fr;
+    gap: 42px;
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+.footerBrand {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.brandHeader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.brandLogo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.brandName {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1;
+    color: #262626;
+}
+
+.brandDescription {
+    margin: 0;
+    max-width: 300px;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #4C4C4D;
+}
+
+.contactList {
+    list-style: none;
+    padding: 0;
+    margin: 4px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contactItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    color: #2f2f2f;
+}
+
+.contactList span {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.contactIconWrap {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border: 2px solid #262626;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 22px;
+    background: #FFF5F0;
+}
+
+.contactIconWrap img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.footerLinksGrid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px;
+    padding-top: 4px;
+}
+
+.footerColumn {
+    min-width: 0;
+}
+
+.columnTitle {
+    font-weight: 600;
+    font-size: 20px;
+    color: #262626;
+    margin-bottom: 24px;
+
+}
+
+.footerLinks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footerLinks li {
+    font-weight: 500;
+    font-size: 20px;
+    color: #333333;
+}
+
+.footerDivider {
+    width: 100%;
+    height: 1px;
+    background: #262626;
+    margin: 16px 0 10px;
+}
+
+.footerBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 44.5px 0;
+}
+
+.policyLinks {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #333333;
+    flex-wrap: wrap;
+}
+
+.policyLinks span {
+    position: relative;
+    padding-right: 12px;
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 18px;
+    color: #333333;
+
+}
+
+.policyLinks span:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 18px;
+    background: #262626;
+}
+
+.socialLinks {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.socialBtn {
+    width: 56px;
+    height: 56px;
+    border: 2px solid #262626;
+    border-radius: 8px;
+    background: #FFDECC;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 16px;
+}
+
+.socialBtn img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.footerDividerBottom {
+    margin: 10px 0 8px;
+}
+
+.copyright {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #656567;
+
+}
+
+@media (max-width: 992px) {
+    .footerTop {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+
+    .footerLinksGrid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .footerBottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 600px) {
+    .footerContainer {
+        padding: 22px 18px 16px;
+        margin: 80px 16px 20px;
+    }
+    .contactList span{
+        font-size: 16px;
+    }
+    .footerLinksGrid {
+        gap: 18px;
+    }
+
+    .footerLinks li {
+        white-space: normal;
+        font-size: 16px;
+    }
+
+    .brandDescription {
+        max-width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .socialLinks {
+        margin: 0 auto;
+    }
+    .policyLinks span{
+        font-size: 14px;
+        text-align: center;
+        flex-wrap: nowrap !important;
+        padding-right: 6px;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+}

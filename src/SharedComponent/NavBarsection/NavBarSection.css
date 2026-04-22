@@ -1,0 +1,144 @@
+/* ===== NAV ===== */
+.nav {
+    background-color: white;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    border: 2px solid var(--text);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* ===== logo ===== */
+.logo {
+    background-color: var(--logo-background);
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    border-right: 2px solid var(--text);
+}
+
+.logo p {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+/* ===== desktop menu ===== */
+.navBtns {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 20px 34px;
+    font-size: 20px;
+    border-left: 2px solid var(--text);
+    height: 100%;
+}
+.activ{
+        background-color: var(--hover-background) !important;
+    }
+.btn-link{
+    text-decoration: none;
+}
+.btn:last-child {
+    background-color: var(--contact-background);
+}
+
+.btn:hover {
+    background-color: var(--hover-background);
+}
+
+
+
+.bars {
+    display: none;
+
+    font-size: 30px;
+    background: none;
+    border: none;
+    background-color: var(--contact-background);
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 992px) {
+
+    .navBtns {
+        position: fixed;
+        top: 28vh;
+        right: 10%;
+        width: 80%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+
+        list-style: none;
+
+        border: 2px solid var(--text);
+        border-radius: 12px;
+        overflow: hidden;
+        background-color: white;
+        transform: translateX(150%);
+        transition: transform 0.6s ease;
+        z-index: 999;
+    }
+    .navBtns.open {
+        transform: translateX(0);
+    }
+
+    .btn {
+        background-color: white;
+        display: flex;
+        align-items: center;
+        padding: 20px 34px;
+        font-size: 20px;
+        border-bottom: 2px solid var(--text);
+        border-left: none;
+    }
+
+
+    .btn:last-child {
+        background-color: var(--contact-background);
+        border-bottom: none;
+    }
+
+    .btn:hover {
+        background-color: var(--hover-background);
+    }
+
+    .bars {
+        display: block;
+        padding: 16px 30px;
+        border-left:2px solid var(--text) !important ;
+        font-size: 30px;
+        background: none;
+        border: none;
+        background-color: var(--contact-background);
+        cursor: pointer;
+    }
+
+    .bars svg {
+        background-color: var(--contact-background);
+    }
+
+    .logo p {
+        font-size: 16px;
+    }
+
+    .logo img {
+        width: 30px;
+        height: 30px;
+    }
+
+}

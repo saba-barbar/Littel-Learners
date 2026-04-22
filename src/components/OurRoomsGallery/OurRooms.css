@@ -1,0 +1,182 @@
+.room-container {
+    margin: 0px 162px 154px;
+}
+
+/* Filters */
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 80px auto 250px auto;
+}
+
+.filters button {
+    background-color: white;
+    color: #1A1A1A;
+    font-size: 20px;
+    border: 2px solid #262626;
+    padding: 12px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    white-space: nowrap;
+}
+
+.filters button.active {
+    background-color: #FFEFE5;
+}
+
+.roomCard {
+    background-color:white;
+    border: 2px solid #262626;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    margin-bottom: 250px;
+}
+
+.slider {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    margin-top: -180px;
+    margin-bottom: 40px;
+}
+
+.slide {
+    flex: 1;
+}
+
+.slide img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 2px solid #262626;
+}
+
+.roomHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.roomHeader h2 {
+font-family: Raleway;
+font-weight: 700;
+font-size: 40px;
+line-height: 130%;
+color: #1A1A1A;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+}
+
+.controls button {
+    background: white;
+    border: 2px solid #262626;
+    width: 58px;
+    height: 58px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 40px;
+    transition: 0.3s;
+}
+
+.roomCard p {
+font-weight: 500;
+font-size: 22px;
+color: #4C4C4D;
+margin-top: 40px;
+}
+
+@media (max-width: 1440px){
+    .room-container {
+    margin: 0px 80px 150px;
+}
+
+.filters {
+    margin: 80px auto 200px auto;
+}
+
+.filters button {
+    font-size: 18px;
+    padding: 10px 16px;
+}
+
+.roomCard {
+    box-shadow: 4px 4px 0px 1px #1E1E1E;
+    margin-bottom: 200px;
+}
+
+.slider {
+    margin-top: -160px;
+    margin-bottom: 40px;
+}
+
+.slide img {
+    width: 100%;
+    height: 234px;
+    border-radius: 10px;
+}
+.roomHeader h2 {
+
+font-size: 38px;
+}
+
+.controls button {
+    width: 48px;
+    height: 48px;
+    border-radius: 6px;
+    font-size: 30px;
+
+}
+
+.roomCard p {
+font-size: 20px;
+margin-top: 30px;
+}
+}
+@media (max-width: 992px){
+    .room-container {
+    margin: 0px 16px 80px;
+}
+
+.filters {
+    margin: 60px auto 200px auto;
+}
+
+.filters button {
+    font-size: 14px;
+    padding: 8px 14px;
+}
+
+.roomCard {
+    box-shadow: 4px 4px 0px 1px #1E1E1E;
+    margin-bottom: 200px;
+}
+
+.slider {
+    margin-top: -140px;
+    margin-bottom: 30px;
+}
+
+.slide img {
+    height: 203px;
+}
+.roomHeader{
+    flex-direction:column-reverse;
+    gap: 20px;
+}
+.roomHeader h2 {
+font-size: 28px;
+}
+.roomCard p {
+font-size: 18px;
+margin-top: 20px;
+text-align: center;
+}
+}
