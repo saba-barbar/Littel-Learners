@@ -65,6 +65,10 @@
     font-size: 20px;
     text-align: center;
 }
+.navigateCard button:hover{
+    cursor: pointer;
+    background: #fdceb5;
+}
 
 @media (max-width:1440px) {
     .NavigateContainer {
@@ -103,7 +107,7 @@
     .navigateCard {
         width: 100%;
         padding: 40px;
-        gap: 40px;
+        gap: 30px;
     }
 
     .navigateCard div h3 {
@@ -121,6 +125,6 @@
         font-size: 16px;
     }
     .NavigateContainer {
-        margin-bottom: 100px;
+        margin-bottom: 0px;
     }
 }
