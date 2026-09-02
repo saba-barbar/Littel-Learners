@@ -57,7 +57,8 @@
 
 
 .testimonial-slider-wrapper {
-    padding: 80px 162px;
+    /* padding: 80px 162px; */
+    margin-bottom: 100px;
     position: relative;
     display: flex;
     align-items: stretch;
@@ -120,7 +121,7 @@
     }
 
     .testimonial-slider-wrapper {
-        padding: 80px 82px;
+        margin-bottom: 80px;
     }
 
     .ourTestimonialsCardImg {
@@ -161,7 +162,7 @@
     .testimonial-slider-wrapper {
         flex-wrap: wrap;
         justify-content: center;
-        padding: 80px 16px;
+        margin-bottom: 100px;
     }
 
     .OurTestimonialContainer {

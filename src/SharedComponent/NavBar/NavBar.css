@@ -5,8 +5,9 @@
         background-color: var(--BackgroundColor);
         margin: 18px 51px 0px 50px;
 }
-@media (max-width: 992px){
-    .headerContainer {
-        margin: 40px 17px 0px 16px;
-}
+
+@media (max-width: 992px) {
+        .headerContainer {
+                margin: 40px 17px 0px 16px;
+        }
 }

@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: stretch;
     gap: 50px;
-    padding: 100px 162px;
+    margin-bottom: 100px;
 }
 
 .navigateCard {
@@ -69,7 +69,7 @@
 @media (max-width:1440px) {
     .NavigateContainer {
         gap: 40px;
-        padding: 80px;
+        margin-bottom: 80px;
     }
 
     .navigateCard {
@@ -121,6 +121,6 @@
         font-size: 16px;
     }
     .NavigateContainer {
-        padding: 16px;
+        margin-bottom: 100px;
     }
 }

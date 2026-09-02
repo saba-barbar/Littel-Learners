@@ -1,5 +1,5 @@
 .faq-section {
-    padding: 100px 162px;
+    margin-bottom: 100px;
     background-color: #fdf6f0;
 }
 
@@ -148,7 +148,7 @@
     }
 
     .faq-section {
-        padding: 80px 80px;
+        margin-bottom: 80px;
     }
 
     .faq-card {
@@ -172,6 +172,6 @@
     }
 
     .faq-section {
-        padding: 40px 20px;
+        margin-bottom: 100px;
     }
 }

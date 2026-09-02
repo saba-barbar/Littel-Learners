@@ -68,7 +68,7 @@ color: #4C4C4D;
 @media (max-width:1440px){
     .student-container {
     margin: 0px 80px 150px;
-    gap: 40px;
+    gap: 30px;
 }
 
 .student-card {

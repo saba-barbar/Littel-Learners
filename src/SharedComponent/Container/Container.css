@@ -1,0 +1,14 @@
+.project-container {
+    padding: 80px 100px;
+}
+
+@media (max-width:1440px) {
+    .project-container {
+        padding: 40px 80px;
+    }
+}
+@media (max-width:992px) {
+    .project-container {
+        padding: 52px 22px;
+    }
+}

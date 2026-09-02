@@ -18,15 +18,15 @@ const FAQCard: React.FC<FAQCardProps> = ({ item }) => {
         <div
             className={`faq-card${isOpen ? " faq-card--open" : ""}`}
             
-            role="button"
-            aria-expanded={isOpen}
-            tabIndex={0}
-            onKeyDown={(e) => {
-                if (e.key === "Enter" || e.key === " ") {
-                    e.preventDefault();
-                    setIsOpen((prev) => !prev);
-                }
-            }}
+            // role="button"
+            // aria-expanded={isOpen}
+            // tabIndex={0}
+            // onKeyDown={(e) => {
+            //     if (e.key === "Enter" || e.key === " ") {
+            //         e.preventDefault();
+            //         setIsOpen((prev) => !prev);
+            //     }
+            // }}
         >
             <div className="faq-card__header">
                 <p className="faq-card__question">{item.question}</p>
