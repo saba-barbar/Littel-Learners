@@ -3,12 +3,13 @@ import OurHistory from "../components/OurHistory/OurHistory"
 import OurMissionAndVission from "../components/OurMission&Vision/OurMissionAndVission"
 import OurTeam from "../components/OurTeam/OurTeam"
 import Hero from "../SharedComponent/Hero/Hero"
+import Container from "../SharedComponent/Container/Container"
 
 
 
 function About() {
     return (
-        <div>
+        <Container>
             <Hero button="Overview" title="Welcome to Little Learners Academy" decs="A leading kinder
                                     garden school dedicated to providing a nurturing and stimulating
                                     environment for young learners. With a commitment to excellence in 
@@ -20,7 +21,7 @@ function About() {
             <Awards/>
             <OurHistory/>
             <OurTeam/>
-        </div>
+        </Container>
     )
 }
 

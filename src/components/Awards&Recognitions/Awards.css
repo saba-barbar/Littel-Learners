@@ -1,9 +1,9 @@
 .awards-slider-wrapper {
-    margin: 0px 162px 154px;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    gap: 100px;
+    gap: 80px;
     justify-content: center;
 }
 
@@ -28,13 +28,14 @@
 }
 
 .award-slide>* {
-    width: 100%;
+    width: 99%;
 }
 
 .small-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 20px;
 }
 
 .small-container p {
@@ -64,15 +65,31 @@
     justify-content: center;
 }
 
+@media (max-width:1760px) {
+    .award-slide .OurBenefetsCard {
+        max-height: 402px;
+    }
+
+    .AwardsContainer {
+        gap: 18px;
+        height: 470px;
+        overflow: hidden;
+    }
+
+}
 
 @media (max-width: 1440px) {
     .awards-slider-wrapper {
-        margin: 0px 80px 154px;
-        gap: 40px;
+        margin-bottom: 80px;
+        gap: 50px;
     }
 
     .award-slide .OurBenefetsCard {
-        height: 322px;
+        height: 360px;
+    }
+
+    .AwardsContainer {
+        height: 410px;
     }
 
     .award-slide {
@@ -97,20 +114,24 @@
 }
 
 @media (max-width: 992px) {
-        .awards-slider-wrapper {
-        margin: 50px 16px 80px;
-        gap: 30px;
+    .awards-slider-wrapper {
+        margin-bottom: 100px;
+        gap: 0px;
     }
 
     .award-slide .OurBenefetsCard {
-        width: 100%;
+        width: 99%;
         height: 274px;
     }
 
     .award-slide {
-        flex: 0 0 100% ;
+        flex: 0 0 100%;
         height: 330px;
         width: 100% !important;
+    }
+
+    .AwardsContainer {
+        height: 350px;
     }
 
 }

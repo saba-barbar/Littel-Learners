@@ -54,17 +54,20 @@ function Awards() {
             />
 
             <div className="awards-slider-wrapper">
+                <div className="over">
 
-                <div className="AwardsContainer">
-                    {visibleCards.map((card, index) => (
-                        <div className="award-slide" key={currentIndex + index}>
-                            <OurBenefetsCard
-                                icon={card.icon}
-                                title={card.title}
-                                desc={card.desc}
-                            />
-                        </div>
-                    ))}
+                    <div className="AwardsContainer">
+                        {visibleCards.map((card, index) => (
+                            <div className="award-slide" key={currentIndex + index}>
+                                <OurBenefetsCard
+                                    icon={card.icon}
+                                    title={card.title}
+                                    desc={card.desc}
+                                />
+
+                            </div>
+                        ))}
+                    </div>
                 </div>
                 <div className="small-container">
                     <p>8 More Awards</p>
