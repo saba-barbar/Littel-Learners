@@ -57,7 +57,8 @@
     .shared-hero {
         Padding: 100px 100px;
     }
-        .shared-hero img {
+
+    .shared-hero img {
         width: 137px;
         height: 137px;
     }
@@ -82,7 +83,8 @@
     }
 
     .shared-hero p {
-        max-width: 535px;
+        width: 535px;
+        max-width: 500px;
         font-size: 16px;
     }
 
@@ -109,6 +111,10 @@
     .shared-hero img {
         width: 100px;
         height: 100px;
+    }
+
+    .shared-hero p {
+        width: 100%;
     }
 
     .hero-flex {

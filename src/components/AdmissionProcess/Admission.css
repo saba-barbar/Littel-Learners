@@ -1,0 +1,172 @@
+.admission-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.admission-card {
+    margin-bottom: 10px;
+}
+
+.line2 {
+    display: none;
+}
+
+.admission-number {
+    padding: 14px 30px;
+    width: 128px;
+    height: 106px;
+    background: white;
+    border: 2px solid #262626;
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: Raleway;
+}
+
+.admission-smCard {
+    width: 500px;
+    height: 322px;
+    padding: 50px;
+    background: white;
+    border: 2px solid #262626;
+    border-radius: 12px;
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+}
+
+.admission-smCard h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Raleway;
+    margin-bottom: 20px;
+}
+
+.admission-smCard p {
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #4C4C4D;
+}
+
+@media (max-width:1800px) {
+    .admission-container {
+        gap: 20px;
+    }
+
+    .admission-smCard {
+        width: 400px;
+        height: 350px;
+        padding: 40px;
+        box-shadow: 4px 4px 0px 1px #1E1E1E;
+    }
+}
+
+@media (max-width:1440px) {
+    .admission-container {
+        gap: 30px;
+        margin-bottom: 80px;
+    }
+
+    .admission-card {
+        margin-bottom: 20px;
+    }
+
+    .admission-number {
+        padding: 10px 24px;
+        width: 98px;
+        height: 77px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 0px 1px #1E1E1E;
+        font-size: 40px;
+    }
+
+    .line {
+        margin-left: -10px;
+    }
+
+    .admission-smCard {
+        width: 400px;
+        height: 255px;
+        padding: 40px;
+        box-shadow: 4px 4px 0px 1px #1E1E1E;
+    }
+
+    .admission-smCard h2 {
+        font-size: 30px;
+        margin-bottom: 16px;
+    }
+
+    .admission-smCard p {
+        font-size: 16px;
+    }
+}
+@media (max-width:1420px) {
+        .admission-container {
+        gap: 10px;}
+    .admission-smCard{
+        width: 340px;
+        height: 255px;
+        padding: 30px;
+    }
+}
+
+@media (max-width:992px) {
+    .admission-container {
+        gap: 0px;
+        margin-bottom: 100px;
+        margin-top: 20px;   }
+
+    .admission-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .line2 {
+        display: block;
+    }
+
+    .admission-number {
+        padding: 10px 24px;
+        width: 98px;
+        height: 77px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 0px 1px #1E1E1E;
+        font-size: 40px;
+    }
+
+    .admission-card {
+        margin-bottom: 0px;
+        &:first-child{
+            .line2{
+                display: none;
+            }
+        }
+    }
+
+    .admission-smCard {
+        width: 100%;
+        height: 255px;
+        padding: 40px;
+        box-shadow: 4px 4px 0px 1px #1E1E1E;
+    }
+
+    .admission-smCard h2 {
+        font-size: 30px;
+        margin-bottom: 16px;
+    }
+
+    .admission-smCard p {
+        font-size: 16px;
+    }
+}

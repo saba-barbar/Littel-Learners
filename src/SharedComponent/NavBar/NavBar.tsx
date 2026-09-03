@@ -19,8 +19,8 @@ function NavBar() {
                     { contant: "Home", path:"/"},
                     { contant: "About Us", path:"/about"},
                     { contant: "Academics", path:"/academics"},
-                    { contant: "Admissions", path:"/admissions"},
-                    { contant: "Student Life", path:"/student Life"},
+                    { contant: "Admissions", path:"/admission"},
+                    { contant: "Student Life", path:"/student-Life"},
                     { contant: "Contact", path:"/contact"}
                 ]}
             />
