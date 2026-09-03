@@ -2,11 +2,12 @@ import Hero from "../SharedComponent/Hero/Hero"
 import OurFeature from "../components/OurFeatures/OurFeature";
 import OurRooms from "../components/OurRoomsGallery/OurRooms";
 import StudentLearn from "../components/StudentLearn/StudentLearn"
+import Container from "../SharedComponent/Container/Container";
 
 
 function Academics() {
     return (
-        <>
+        <Container>
         <Hero button="Academics" title="Nurturing Young Minds for Success" decs="Welcome to our Academics page,
                                 where we take pride in providing a comprehensive and stimulating educational
                                 experience for your . Our kindergarten school's academic program is thoughtfully
@@ -16,7 +17,7 @@ function Academics() {
         <OurFeature/>
         <StudentLearn/>
         <OurRooms/>
-        </>
+        </Container>
     )
 }
 

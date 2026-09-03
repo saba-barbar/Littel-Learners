@@ -53,6 +53,21 @@
     color: #262626;
 }
 
+@media (max-width:1760px) {
+    .shared-hero {
+        Padding: 100px 100px;
+    }
+        .shared-hero img {
+        width: 137px;
+        height: 137px;
+    }
+
+    .shared-hero p {
+        max-width: 535px;
+        font-size: 16px;
+    }
+}
+
 @media (max-width:1440px) {
     .shared-hero {
         Padding: 100px 80px;
@@ -69,7 +84,6 @@
     .shared-hero p {
         max-width: 535px;
         font-size: 16px;
-
     }
 
     .sub-hero {
@@ -106,9 +120,10 @@
         align-items: center;
         justify-content: center;
     }
-        .shared-hero p {
-            text-align: center;
-        }
+
+    .shared-hero p {
+        text-align: center;
+    }
 
     .sub-hero h2 {
         text-align: center;
