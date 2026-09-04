@@ -15,18 +15,22 @@ interface arrayProps {
 
 function NavBar({ logo, items, logoText }: NavBarProps) {
     const [isOpen, setIsOpen] = useState(false);
-    const[ activ , setActiv ]=useState<number>(0)
+    const [activ, setActiv] = useState<number>(0)
 
     return (
         <nav className="nav">
-            <div className="logo">
+            <NavLink to="/" className="logo">
                 <img src={logo} alt={logoText} />
                 <p>{logoText}</p>
-            </div>
+            </NavLink>
 
             <ul className={`navBtns ${isOpen ? "open" : ""}`}>
                 {items.map((item, index) => (
-                    <li className={`btn ${activ==index ? "activ" : ""}`} key={index} onClick={()=>setActiv(index)}>
+                    <li className={`btn ${activ === index ? "activ" : ""}`} key={index}
+                        onClick={() => {
+                            setActiv(index);
+                            window.scrollTo({top: 0, behavior: "smooth", });
+                        }} >
                         <NavLink to={item.path} className="btn-link ">
                             {item.contant}
                         </NavLink>
