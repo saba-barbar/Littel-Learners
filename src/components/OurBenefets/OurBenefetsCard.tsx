@@ -1,6 +1,6 @@
 import type { ReactNode } from "react"
 
-interface OurBenefetsCardProps {
+export interface OurBenefetsCardProps {
     icon:string;
     title:string;
     desc:string

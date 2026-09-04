@@ -1,4 +1,6 @@
-export const ourBenefetData = [
+import type { OurBenefetsCardProps } from "./OurBenefetsCard";
+
+export const ourBenefetData :OurBenefetsCardProps[] = [
     {
         icon:"/icons/OurBenefetsIcon/Icon (1).svg"  ,    
         title: "Holistic Learning Approach ",

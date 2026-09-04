@@ -1,4 +1,5 @@
 import AdmissionProcess from "../components/AdmissionProcess/Admission"
+import FeeStructure from "../components/FeeStructure/FeeStructure"
 import Container from "../SharedComponent/Container/Container"
 import Hero from "../SharedComponent/Hero/Hero"
 
@@ -12,6 +13,7 @@ function Admission() {
                         Our admission process is designed to be transparent, straightforward, and inclusive. Here's a step-by-step guide to joining our school"/>
 
                 <AdmissionProcess />
+                <FeeStructure/>
             </Container>
 
         </div>

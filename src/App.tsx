@@ -7,7 +7,7 @@ import Footer from './SharedComponent/Footer/Footer'
 import About from './pages/About'
 import Academics from './pages/Academics'
 import Admission from './pages/Admission'
-// import StudentLife from "./pages/studentLife"
+import StudentLife from "./pages/studentLife"
 
 function App() {
 
@@ -19,7 +19,7 @@ function App() {
       <Route path='/about' element={<About/>}></Route>
       <Route path='/academics' element={<Academics/>}></Route>
       <Route path='/admission' element={<Admission/>}></Route>
-      {/* <Route path='/student-Life' element={<StudentLife/>}></Route> */}
+      <Route path='/student-Life' element={<StudentLife/>}></Route>
 
     </Routes>
     <Footer/>
