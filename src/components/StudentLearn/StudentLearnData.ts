@@ -1,4 +1,6 @@
-export const StudentLearnData =[
+import type { StudentLearnProps } from "./StudentLearnCard";
+
+export const StudentLearnData :StudentLearnProps[] =[
     {
         img:"/images/academics/Image (7).svg",
         title: "Language Arts",

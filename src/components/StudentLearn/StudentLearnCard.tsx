@@ -1,14 +1,15 @@
-interface StudentLearnProps {
+export interface StudentLearnProps {
     img: string;
     title: string;
-    desc: string
+    desc: string;
+    className?:string
 }
 
-function StudentLearnCard({ img, title, desc }: StudentLearnProps) {
+function StudentLearnCard({ img, title, desc ,className }: StudentLearnProps) {
     return (
         <>
             <div className="student-card">
-                <div className="box"></div>
+                <div className={className}></div>
                 <img src={img} />
                 <div className="student-desc">
                     <h3>{title}</h3>

@@ -35,7 +35,7 @@
 
 .box {
     width: 125px;
-    height: 384px;
+    height: 395px;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
     border: 2px solid #262626;
@@ -72,7 +72,13 @@
         .student-container {
         gap: 34px;
     }
-
+.student-card {
+    height:480px ;
+    max-height: 480px;
+}
+.student-desc{
+    margin-top: 300px;
+}
 }
 
 @media (max-width:1440px) {

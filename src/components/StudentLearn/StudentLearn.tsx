@@ -14,6 +14,7 @@ function StudentLearn() {
             <div className="student-container">
                 {StudentLearnData.map((item, index) => (
                     <StudentLearnCard
+                    className="box"
                         key={index}
                         title={item.title}
                         img={item.img}
