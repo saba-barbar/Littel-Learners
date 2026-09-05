@@ -8,6 +8,7 @@ import About from './pages/About'
 import Academics from './pages/Academics'
 import Admission from './pages/Admission'
 import StudentLife from "./pages/studentLife"
+import Contact from './pages/Contact'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Route path='/academics' element={<Academics/>}></Route>
       <Route path='/admission' element={<Admission/>}></Route>
       <Route path='/student-Life' element={<StudentLife/>}></Route>
+      <Route path='/contact' element={<Contact/>}></Route>
 
     </Routes>
     <Footer/>

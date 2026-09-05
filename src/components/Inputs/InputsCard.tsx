@@ -1,0 +1,23 @@
+import type {StudentFormField } from "../ContactForm/ContactFormData";
+import "../ContactForm/ContactForm.css"
+
+const InputCard = ({
+    label,
+    type = "text",
+    placeholder,
+    name,
+    isFullWidth,
+}: StudentFormField) => {
+    return (
+        <div className={`input-group ${isFullWidth ? "full-width" : ""}`}>
+            <label htmlFor={name}>{label}</label>
+            {type === "textarea" ? (
+                <textarea id={name}  name={name} placeholder={placeholder}   rows={5}/>
+            ) : (
+                <input type={type} id={name} name={name}  placeholder={placeholder} />
+            )}
+        </div>
+    );
+};
+
+export default InputCard;
