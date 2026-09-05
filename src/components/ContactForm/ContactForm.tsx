@@ -27,16 +27,16 @@ const ContactForm = () => {
                         <label htmlFor="program">  Program of Interest </label>
 
                         <div className="select-wrapper">
-                            <select id="program" name="program" className="custom-select" >
+                            <select id="program"  name="program" className="custom-select" >
                                 <option value="">  Select Program </option>
 
                                 {StudentProgramOptions.map((option) => (
-                                    <option key={option.value} value={option.value} >
+                                    <option key={option.value}  value={option.value} >
                                         {option.label}
                                     </option>
                                 ))}
                             </select>
-                            <img src={ArrowDown} alt="" className="select-arrow" />
+                            <img  src={ArrowDown} alt="" className="select-arrow"/>
                         </div>
                     </div>
 
