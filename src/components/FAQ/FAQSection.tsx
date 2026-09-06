@@ -1,7 +1,7 @@
 import React from "react";
 import FAQCard from "./FAQCard";
 import { faqData } from "./Faqdata";
-import "./faq.css";
+import "./Faq.css";
 import Title from "../../SharedComponent/Title/Title";
 
 const FAQSection: React.FC = () => {

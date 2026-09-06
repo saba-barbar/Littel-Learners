@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./faq.css";
+import "./Faq.css";
 
 export interface FAQItem {
     id: number;
@@ -16,7 +16,7 @@ const FAQCard: React.FC<FAQCardProps> = ({ item, index }) => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="faq-card-wrapper" data-aos="zoom-in"   data-aos-delay={index * 100} data-aos-duration="600" >
+        <div className="faq-card-wrapper" data-aos="zoom-in"   data-aos-delay={index * 10} data-aos-duration="600" >
             <div className={`faq-card${isOpen ? " faq-card--open" : ""}`}>
                 <div className="faq-card__header">
                     <p className="faq-card__question">{item.question}</p>
