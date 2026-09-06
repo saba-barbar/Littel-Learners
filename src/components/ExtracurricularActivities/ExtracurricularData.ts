@@ -1,6 +1,10 @@
-import type { OurBenefetsCardProps } from "../OurBenefets/OurBenefetsCard";
+interface ExtracurricularDataProps {
+    icon: string;
+    title: string;
+    desc: string;
+}
 
-export const ExtracurricularData :OurBenefetsCardProps[] =[
+export const ExtracurricularData :ExtracurricularDataProps[] =[
     {
         icon:"/icons/ExtracurricularIcon/Icon1.svg"  ,    
         title: "Sports and Athletics",

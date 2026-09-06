@@ -15,7 +15,8 @@ function StudentSupport() {
                             <OurBenefetsCard key={index}
                                 icon={card.icon}
                                 title={card.title}
-                                desc={card.desc}>
+                                desc={card.desc}
+                                index={index}>
                             </OurBenefetsCard>
                         )
                     })}

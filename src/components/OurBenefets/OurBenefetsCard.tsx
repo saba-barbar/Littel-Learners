@@ -1,13 +1,13 @@
-import type { ReactNode } from "react"
+
+
 
 export interface OurBenefetsCardProps {
     icon: string;
     title: string;
-    desc: string
-    children?: ReactNode
-    index:number
-
+    desc: string;
+    index: number;
 }
+
 
 function OurBenefetsCard({ icon, title, desc, index }: OurBenefetsCardProps) {
     return (

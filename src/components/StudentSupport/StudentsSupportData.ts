@@ -1,6 +1,10 @@
-import type { OurBenefetsCardProps } from "../OurBenefets/OurBenefetsCard";
+interface StudentsSupportDataProps {
+    icon: string;
+    title: string;
+    desc: string;
+}
 
-export const StudentsSupportData :OurBenefetsCardProps[] = [
+export const StudentsSupportData :StudentsSupportDataProps[] = [
     {
         icon:"/icons/studentSupports/Icon1.svg"  ,    
         title: "Counseling ",

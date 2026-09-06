@@ -19,6 +19,7 @@ function OurFeature() {
                         title={item.title}
                         icon={item.icon}
                         desc={item.desc}
+                        index={index}
                     />
                 ))}
 
