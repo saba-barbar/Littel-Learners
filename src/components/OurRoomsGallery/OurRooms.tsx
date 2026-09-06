@@ -36,12 +36,14 @@ function OurRooms() {
                 </div>
 
                 <div className="cards-container">
-                    {filteredData.map((item) => (
+                    {filteredData.map((item, index) => (
                         <OurRoomsCard
                             key={item.id}
                             title={item.title}
                             images={item.img}
                             content={item.content}
+                            dataAos="fade-down"
+                            dataAosDelay={index *10}
                         />
                     ))}
                 </div>

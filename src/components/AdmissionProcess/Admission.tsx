@@ -16,11 +16,11 @@ function AdmissionProcess() {
                             number={item.number}
                             title={item.title}
                             desc={item.desc}
+                            dataAos="fade-down"
+                            dataAosDelay={index * 10}
                         />
                     )
-                })
-                }
-
+                })}
             </div>
         </div>
 

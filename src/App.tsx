@@ -14,6 +14,7 @@ import NavBar from "./SharedComponent/NavBar/NavBar";
 import Footer from "./SharedComponent/Footer/Footer";
 
 import LoadingPage from "./components/LoadingPage/LoadingPage";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -42,6 +43,7 @@ function App() {
                 <Route path="/student-Life" element={<StudentLife />} />
                 <Route path="/contact" element={<Contact />} />
             </Routes>
+            <ScrollToTop />
 
             <Footer />
         </>

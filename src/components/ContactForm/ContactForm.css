@@ -32,7 +32,19 @@
     border: 2px solid #262626;
     border-radius: 8px;
 }
+.social-tab-item:hover {
+    animation: flip-card 0.7s ease;
+}
 
+@keyframes flip-card {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
 .social-tab-item img {
     max-width: 100%;
     max-height: 100%;
@@ -162,7 +174,12 @@
     transform: translateY(-20%);
     pointer-events: none;
 }
-
+.contact-container:hover {
+    box-shadow: 6px 6px 0px 1px #FF8D4D;
+}
+.submit-btn:hover{
+    background-color: #ff985d;
+}
 @media (max-width: 1440px) {
     .contact-container {
         padding: 100px 80px;

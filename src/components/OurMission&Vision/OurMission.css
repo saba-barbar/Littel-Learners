@@ -15,6 +15,9 @@
     box-shadow: 6px 6px 0px 2px #1E1E1E;
     background-color: white;
 }
+.m-v-Card:hover{
+    box-shadow: 6px 6px 0px 2px #FF8D4D;
+}
 
 .subVission-container {
     display: flex;
@@ -29,6 +32,18 @@
     font-style: Bold;
     font-size: 48px;
     color: #1A1A1A;
+}
+.m-v-Card img,
+.m-v-Card h3 {
+    transition: transform 0.35s ease;
+}
+
+.m-v-Card:hover img {
+    transform: scale(1.06);
+}
+
+.m-v-Card:hover h3 {
+    transform: scale(1.06);
 }
 
 .m-v-Card p {

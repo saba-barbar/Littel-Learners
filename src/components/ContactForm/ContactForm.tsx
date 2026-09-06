@@ -9,7 +9,7 @@ const ContactForm = () => {
         <section className="contact-section wrapper m-section">
             <Title span="Contact Form" title="Student Information" desc="If you have specific questions or wish to request more information about Little Learners Academy, please complete the contact form below. Kindly provide the following details to help us better understand your needs." />
 
-            <div className="contact-container p-relative">
+            <div className="contact-container p-relative"  data-aos="fade-down">
                 <div className="social-tabs">
                     {StudentSocialLinks.map((social) => (
                         <a key={social.id} href={social.path} target="_blank" rel="noopener noreferrer" className="social-tab-item" aria-label={social.platform} >

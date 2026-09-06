@@ -7,7 +7,8 @@ interface OurHistoryProps {
 function OurHistoryCard({title, year, text} :OurHistoryProps) {
     return (
         <>
-            <div className="history-card">
+            <div className="history-card"            data-aos="fade-right"
+            data-aos-duration="700">
                 <div className='history-line-container'>
                     <div className="history-line"></div>
                     <div className="year-card">

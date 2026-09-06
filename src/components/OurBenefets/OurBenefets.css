@@ -12,16 +12,27 @@
     /* margin-bottom: 40px; */
 }
 
-.OurBenefetsCard {
+.benefets-aos {
     width: 30.25%;
+    margin-top: 50px;
+}
+
+.OurBenefetsCard {
+    width: 100%;
     height: 345px;
     max-height: 345px;
     padding: 80px 50px 50px;
-    margin-top: 50px;
     border-radius: 12px;
     border: 2px solid #262626;
     box-shadow: 6px 6px 0px 2px #1E1E1E;
     background-color: white;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.OurBenefetsCard:hover {
+    transform: scale(1.02);
+    box-shadow: 6px 6px 0px 2px #FF8D4D;
 }
 
 .OurBenefetsCard h3 {
@@ -44,107 +55,125 @@
 }
 
 .iconBenefets {
-        width: 74px;
+    width: 74px;
     height: 74px;
     border-radius: 12px;
     border: 2px solid #262626;
-    background-color:#FFDECC ;
+    background-color: #FFDECC;
     padding: 20px;
     margin-bottom: 41px;
     margin-top: -120px;
-    img{
-        background-color:#FFDECC ;
+
+    img {
+        background-color: #FFDECC;
     }
 }
+
 @media (max-width:1760px) {
-    .OurBenefetsCard{
+    .OurBenefetsCard {
         max-height: 360px;
         padding: 50px 40px 40px;
     }
-    .iconBenefets{
-    margin-bottom: 41px;
-    margin-top: -102px;
+
+    .iconBenefets {
+        margin-bottom: 41px;
+        margin-top: -102px;
     }
 }
-@media (max-width:1440px){
-.containerBenefets {
-    margin-bottom: 80px;
+
+@media (max-width:1440px) {
+    .containerBenefets {
+        margin-bottom: 80px;
+    }
+
+    .sm-containerBenefets {
+        /* padding: 0px 20px; */
+        gap: 30px;
+
+    }
+
+   @media (max-width: 1440px) {
+    .benefets-aos {
+        width: 30.25%;
+        margin-top: 40px;
+    }
+
+    .OurBenefetsCard {
+        max-height: 291px;
+        padding: 60px 40px 40px;
+        border-radius: 10px;
+    }
 }
 
-.sm-containerBenefets {
-    /* padding: 0px 20px; */
-    gap: 30px;
+    .OurBenefetsCard h3 {
+        font-size: 24px;
+    }
 
+    .OurBenefetsCard p {
+        margin-top: 16px;
+        font-size: 16px;
+    }
+
+    .iconBenefets {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 56px;
+        height: 56px;
+        border-radius: 8px;
+        padding: 16px;
+        margin-bottom: 32px;
+        margin-top: -95px;
+        margin-left: -24px;
+
+        img {
+            width: 24px;
+            height: 24px;
+        }
+
+    }
 }
 
-.OurBenefetsCard {
-    width: 30.25%;
-    max-height: 291px;
-    padding: 60px 40px 40px;
-    margin-top: 40px;
-    border-radius: 10px;
-    box-shadow: 4px 4px 0px 2px #1E1E1E;
-}
-.OurBenefetsCard h3 {
-    font-size: 24px;
-}
-
-.OurBenefetsCard p {
-    margin-top: 16px;
-    font-size: 16px;
-}
-
-.iconBenefets {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 56px;
-    height: 56px;
-    border-radius: 8px;
-    padding: 16px;
-    margin-bottom: 32px;
-    margin-top: -95px;
-    margin-left: -24px;
-    img{
-    width: 24px;
-    height: 24px;    }
-
-}
-}
 @media (max-width:1081px) {
-    .OurBenefetsCard{
+    .OurBenefetsCard {
         padding: 40px 30px 30px;
     }
-    .iconBenefets{
-        margin-top:-80px ;
+
+    .iconBenefets {
+        margin-top: -80px;
     }
 }
 
-@media (max-width:992px){
-.containerBenefets {
-    /* margin-top: 40px; */
-    margin-bottom: 100px;
-}
+@media (max-width:992px) {
+    .containerBenefets {
+        /* margin-top: 40px; */
+        margin-bottom: 100px;
+    }
 
-.sm-containerBenefets {
-    gap: 20px;
+    .sm-containerBenefets {
+        gap: 20px;
 
-}
+    }
+    .benefets-aos {
+        width: 100%;
+        margin-top: 40px;
+    }
 
-.OurBenefetsCard {
-    width: 100%;
-    height: fit-content;
-    max-height: none;
-    padding: 50px 30px 30px 40px;
-}
-.OurBenefetsCard h3 {
-    font-size: 22px;
-}
+    .OurBenefetsCard {
+        width: 100%;
+        height: fit-content;
+        max-height: none;
+        padding: 50px 30px 30px 40px;
+    }
 
-.iconBenefets {
-    margin-bottom: 22px;
-    margin-top: -85px;
+    .OurBenefetsCard h3 {
+        font-size: 22px;
+    }
+
+    .iconBenefets {
+        margin-bottom: 22px;
+        margin-top: -85px;
 
 
-}
+    }
 }

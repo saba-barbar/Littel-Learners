@@ -35,7 +35,9 @@
     box-shadow: 6px 6px 0px 2px #1E1E1E;
     margin-bottom: 200px;
 }
-
+.roomCard:hover{
+    box-shadow: 6px 6px 0px 2px #FF8D4D;
+}
 .slider {
     display: flex;
     gap: 20px;

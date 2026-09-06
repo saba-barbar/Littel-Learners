@@ -19,11 +19,13 @@ function OurBenefets() {
                 <div className="sm-containerBenefets">
                     {ourBenefetData.map((card, index) => {
                         return (
-                            <OurBenefetsCard key={index}
+                            <OurBenefetsCard
+                                key={index}
+                                index={index}
                                 icon={card.icon}
                                 title={card.title}
-                                desc={card.desc}>
-                            </OurBenefetsCard>
+                                desc={card.desc}
+                            />
                         )
                     })}
                 </div>

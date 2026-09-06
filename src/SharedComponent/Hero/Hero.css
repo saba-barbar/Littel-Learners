@@ -68,7 +68,13 @@
     width: 100%;
     margin-top: 30px;
 }
+.flex-btn {
+    transition: transform 0.3s ease;
+}
 
+.flex-btn:hover {
+    transform: scale(1.03);
+}
 @media (max-width: 1760px) {
     .shared-hero {
         padding: 100px 100px;

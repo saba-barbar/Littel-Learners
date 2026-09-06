@@ -9,7 +9,7 @@ interface TitleProps {
 export default function Title({ span, title, desc }: TitleProps) {
     return (
         <>
-            <div className="container">
+            <div className="container" data-aos="fade-down">
                 <div className="title">
                     <div className="titleBtn">
                         <p>{span}</p>

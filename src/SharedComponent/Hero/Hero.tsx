@@ -12,7 +12,8 @@ interface HreoProps {
 
 function Hero({ button, title, decs, btn, arrayOfItem }: HreoProps) {
     return (
-        <div className="shared-hero">
+        <div className="shared-hero" data-aos="fade-down">
+
             <img
                 src="/images/about/hero_img.svg"
                 className="shared-hero-img"
@@ -30,11 +31,16 @@ function Hero({ button, title, decs, btn, arrayOfItem }: HreoProps) {
                     {btn && arrayOfItem && (
                         <div className="sub-hero-buttons">
                             {arrayOfItem.map((item, index) => (
-                                <SubHeroBotton
+                                <div
                                     key={index}
-                                    img={item.img}
-                                    span={item.span}
-                                />
+                                    data-aos="fade-up"
+                                    data-aos-delay={index * 100}
+                                >
+                                    <SubHeroBotton
+                                        img={item.img}
+                                        span={item.span}
+                                    />
+                                </div>
                             ))}
                         </div>
                     )}

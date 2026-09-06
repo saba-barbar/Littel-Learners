@@ -3,6 +3,7 @@ import Title from "../../SharedComponent/Title/Title";
 import OurBenefetsCard from "../OurBenefets/OurBenefetsCard";
 import "./Awards.css";
 import { AwardsData } from "./AwardsData";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 
 function Awards() {
     const [cardsPerView, setCardsPerView] = useState(
@@ -63,6 +64,7 @@ function Awards() {
                                     icon={card.icon}
                                     title={card.title}
                                     desc={card.desc}
+                                    index={index}
                                 />
 
                             </div>
@@ -78,7 +80,8 @@ function Awards() {
                             onClick={prevSlide}
                             aria-label="Previous awards"
                         >
-                            ‹
+                            <FaArrowLeft />
+
                         </button>
 
                         <button
@@ -87,7 +90,7 @@ function Awards() {
                             onClick={nextSlide}
                             aria-label="Next awards"
                         >
-                            ›
+                            <FaArrowRight />
                         </button></div>
                 </div>
             </div>

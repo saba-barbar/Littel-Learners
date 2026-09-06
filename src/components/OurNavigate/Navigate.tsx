@@ -17,7 +17,7 @@ function Navigate() {
             <div className=" NavigateContainer ">
                 {NavigateCardData.map((data, index) => {
                     return (
-                        <NavigateCard key={index} title={data.title} desc={data.desc}></NavigateCard>
+                        <NavigateCard key={index} title={data.title} desc={data.desc} index={index}></NavigateCard>
                     )
                 })}
             </div>

@@ -116,6 +116,30 @@
     font-size: 20px;
     color: #333333;
 }
+.year-card {
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.year-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 6px 6px 0px 2px #FFBE99;
+}
+
+.year-card img {
+    transition: transform 0.4s ease;
+}
+
+.year-card:hover img {
+    transform: rotate(-2deg) scale(1.08);
+}
+
+.sub-container-history h3 {
+    transition: transform 0.3s ease;
+}
+
+.history-card:hover .sub-container-history h3 {
+    transform: translateX(5px);
+}
 
 @media (max-width: 1440px) {
     .history-container {

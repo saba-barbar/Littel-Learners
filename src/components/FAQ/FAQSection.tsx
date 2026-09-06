@@ -17,14 +17,22 @@ const FAQSection: React.FC = () => {
             />
             <div className="faq-columns">
                 <div className="faq-column">
-                    {leftColumn.map((item) => (
-                        <FAQCard key={item.id} item={item} />
+                    {leftColumn.map((item, index) => (
+                        <FAQCard
+                            key={item.id}
+                            item={item}
+                            index={index}
+                        />
                     ))}
                 </div>
 
                 <div className="faq-column">
-                    {rightColumn.map((item) => (
-                        <FAQCard key={item.id} item={item} />
+                    {rightColumn.map((item, index) => (
+                        <FAQCard
+                            key={item.id}
+                            item={item}
+                            index={index}
+                        />
                     ))}
                 </div>
             </div>

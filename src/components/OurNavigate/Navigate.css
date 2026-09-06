@@ -21,6 +21,9 @@
     background: white;
 
 }
+.navigateCard:hover{
+    box-shadow: 4px 4px 0px 2px #FF8D4D;
+}
 
 .navigateCard div {
     text-align: center;
@@ -35,13 +38,19 @@
     text-align: center;
     color: #1A1A1A;
     margin-bottom: 30px;
+    transition: transform 0.35s ease;
 }
-
+.navigateCard:hover div h3 {
+    transform: scale(1.05);
+} 
 .navigateCard div img {
     width: 100%;
     margin-bottom: 50px;
+    transition: transform 0.35s ease;
 }
-
+.navigateCard:hover div img {
+    transform: scale(1.03);
+} 
 .navigateCard div p {
     font-weight: 500;
     font-size: 20px;
