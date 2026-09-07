@@ -18,7 +18,7 @@ function OurTeam() {
                             name={item.name}
                             title={item.title}
                             desc={item.desc}
-                            delay={index * 150}
+                            delay={index * 10}
                         />
                     );
                 })}
