@@ -8,7 +8,7 @@ function HomeHero() {
     return (
         <div className="hero">
             <div className="hero-img-wrapper" data-aos="fade-down">
-                <img className="hero-img" src="/mages/hero-image.webp" />
+                <img className="hero-img" src="/Images/hero-image.webp" />
             </div>
             <HeroCard>
                 <div className="sub-hero">
