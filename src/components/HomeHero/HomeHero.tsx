@@ -3,15 +3,12 @@ import HeroCard from "./HomeHeroCard";
 import "./HomeHero.css"
 import CountUp from "../CountUp/CountUp";
 
-interface HeroProps {
-    img: string;
 
-}
-function HomeHero({ img }: HeroProps) {
+function HomeHero() {
     return (
         <div className="hero">
             <div className="hero-img-wrapper" data-aos="fade-down">
-                <img className="hero-img" src={img} />
+                <img className="hero-img" src="/mages/hero-image.webp" />
             </div>
             <HeroCard>
                 <div className="sub-hero">

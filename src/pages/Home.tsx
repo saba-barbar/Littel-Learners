@@ -12,7 +12,7 @@ function Home() {
     return (
         <>
             <Container>
-                <HomeHero img="/images/hero-image.webp" />
+                <HomeHero />
                 <OurBenefets />
                 <OurTestimonials />
                 <FAQSection />
