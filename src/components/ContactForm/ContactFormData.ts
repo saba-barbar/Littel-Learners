@@ -1,6 +1,6 @@
-import fbIcon from "../../../public/icons/FooterIcon/Icon (13).svg";
-import twitterIcon from "../../../public/icons/FooterIcon/Icon (14).svg";
-import linkedinIcon from "../../../public/icons/FooterIcon/Icon (15).svg";
+import fbIcon from "../../../public/icons/FooterIcon/Icon (13).webp";
+import twitterIcon from "../../../public/icons/FooterIcon/Icon (14).webp";
+import linkedinIcon from "../../../public/icons/FooterIcon/Icon (15).webp";
 
 export interface StudentFormField {
     label: string;

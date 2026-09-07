@@ -9,11 +9,11 @@ function NavBar() {
         <div className="headerContainer">
             <TopBanner
                 paragraph="Admission is Open, Grab your seat now"
-                img="/icons/header-icon.svg"
+                img="/icons/header-icon.webp"
             />
 
             <NavBarsection
-                logo="/icons/nav-icon.svg"
+                logo="/icons/nav-icon.webp"
                 logoText="Littel Learners"
                 items={[
                     { contant: "Home", path:"/"},

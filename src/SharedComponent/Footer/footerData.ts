@@ -15,15 +15,15 @@ export interface SocialLink {
 
 export const contactData: ContactItem[] = [
     {
-        icon: "/icons/FooterIcon/Icon (10).svg",
+        icon: "/icons/FooterIcon/Icon (10).webp",
         text: "hello@littlelearners.com",
     },
     {
-        icon: "/icons/FooterIcon/Icon (11).svg",
+        icon: "/icons/FooterIcon/Icon (11).webp",
         text: "+91 91813 23 2309",
     },
     {
-        icon: "/icons/FooterIcon/Icon (12).svg",
+        icon: "/icons/FooterIcon/Icon (12).webp",
         text: "Somewhere in the World",
     },
 ];
@@ -55,15 +55,15 @@ export const footerLinksData: FooterColumn[] = [
 
 export const socialLinksData: SocialLink[] = [
     {
-        icon: "/icons/FooterIcon/Icon (13).svg",
+        icon: "/icons/FooterIcon/Icon (13).webp",
         label: "Facebook",
     },
     {
-        icon: "/icons/FooterIcon/Icon (14).svg",
+        icon: "/icons/FooterIcon/Icon (14).webp",
         label: "Twitter",
     },
     {
-        icon: "/icons/FooterIcon/Icon (15).svg",
+        icon: "/icons/FooterIcon/Icon (15).webp",
         label: "LinkedIn",
     },
 ];

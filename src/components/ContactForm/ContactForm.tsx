@@ -1,5 +1,5 @@
 import "./ContactForm.css";
-import ArrowDown from "../../../public/icons/arrowDown.svg"
+import ArrowDown from "../../../public/icons/arrowDown.webp"
 import { StudentFormFields, StudentProgramOptions, StudentSocialLinks } from "./ContactFormData";
 import InputCard from "../Inputs/InputsCard";
 import Title from "../../SharedComponent/Title/Title";

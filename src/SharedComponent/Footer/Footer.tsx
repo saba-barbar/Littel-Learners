@@ -11,7 +11,7 @@ function Footer() {
             <div className="footerTop">
                 <div className="footerBrand">
                     <div className="brandHeader">
-                        <img src="/icons/nav-icon.svg"  alt="Little Learners logo"  className="brandLogo"  />
+                        <img src="/icons/nav-icon.webp"  alt="Little Learners logo"  className="brandLogo"  />
                         <h3 className="brandName">Little Learners</h3>
                     </div>
 

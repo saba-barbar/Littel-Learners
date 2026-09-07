@@ -1,8 +1,8 @@
 import type { SubHeroBottonProp } from "./SubHeroBotton";
-import message from "../../../public/icons/FooterIcon/Icon (12).svg"
-import phone from "../../../public/icons/FooterIcon/Icon (11).svg"
-import locatin from "../../../public/icons/FooterIcon/Icon (10).svg"
-import hour from "../../../public/icons/FooterIcon/Icon (46).svg"
+import message from "../../../public/icons/FooterIcon/Icon (12).webp"
+import phone from "../../../public/icons/FooterIcon/Icon (11).webp"
+import locatin from "../../../public/icons/FooterIcon/Icon (10).webp"
+import hour from "../../../public/icons/FooterIcon/Icon (46).webp"
 
 
 export     const contactItems: SubHeroBottonProp[] = [

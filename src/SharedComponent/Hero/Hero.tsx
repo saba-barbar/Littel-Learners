@@ -15,7 +15,7 @@ function Hero({ button, title, decs, btn, arrayOfItem }: HreoProps) {
         <div className="shared-hero" data-aos="fade-down">
 
             <img
-                src="/images/about/hero_img.svg"
+                src="/images/about/hero_img.webp"
                 className="shared-hero-img"
             />
 

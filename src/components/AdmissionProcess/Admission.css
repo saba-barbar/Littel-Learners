@@ -20,6 +20,7 @@
     transform: scale(1.06);
 }
 
+/* مخفي بشكل افتراضي */
 .line2 {
     display: none;
 }
@@ -32,9 +33,11 @@
     border: 2px solid #262626;
     box-shadow: 6px 6px 0px 2px #1E1E1E;
     border-radius: 12px;
+
     display: flex;
     align-items: center;
     justify-content: center;
+
     font-size: 60px;
     font-weight: 800;
     font-family: Raleway;
@@ -44,11 +47,13 @@
     width: 500px;
     height: 322px;
     padding: 50px;
+
     background: white;
     border: 2px solid #262626;
     border-radius: 12px;
     box-shadow: 6px 6px 0px 2px #1E1E1E;
 }
+
 .admission-card:hover .admission-smCard {
     box-shadow: 6px 6px 0px 2px #FF8D4D;
 }
@@ -56,6 +61,7 @@
 .admission-card:hover .admission-number {
     box-shadow: 4px 4px 0px 1px #FF8D4D;
 }
+
 .admission-smCard h2 {
     font-size: 40px;
     font-weight: 700;
@@ -71,7 +77,13 @@
     color: #4C4C4D;
 }
 
-@media (max-width:1800px) {
+
+/* =========================
+   1800px
+========================= */
+
+@media (max-width: 1800px) {
+
     .admission-container {
         gap: 20px;
     }
@@ -84,7 +96,13 @@
     }
 }
 
-@media (max-width:1440px) {
+
+/* =========================
+   1440px
+========================= */
+
+@media (max-width: 1440px) {
+
     .admission-container {
         gap: 30px;
         margin-bottom: 80px;
@@ -123,32 +141,57 @@
         font-size: 16px;
     }
 }
-@media (max-width:1420px) {
-        .admission-container {
-        gap: 10px;}
-    .admission-smCard{
+
+
+/* =========================
+   1420px
+========================= */
+
+@media (max-width: 1420px) {
+
+    .admission-container {
+        gap: 10px;
+    }
+
+    .admission-smCard {
         width: 340px;
         height: 255px;
         padding: 30px;
     }
 }
 
-@media (max-width:992px) {
+
+/* =========================
+   Mobile / Tablet
+========================= */
+
+@media (max-width: 992px) {
+
     .admission-container {
-        gap: 0px;
+        gap: 0;
         margin-bottom: 100px;
-        margin-top: 20px;   }
+        margin-top: 20px;
+    }
 
     .admission-card {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
+        margin-bottom: 0;
     }
 
+    /* إظهار line2 على الشاشات الصغيرة */
     .line2 {
         display: block;
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    /* أول كرت لا يوجد قبله خط */
+    .admission-card:first-child .line2 {
+        display: none;
     }
 
     .admission-number {
@@ -158,15 +201,6 @@
         border-radius: 10px;
         box-shadow: 4px 4px 0px 1px #1E1E1E;
         font-size: 40px;
-    }
-
-    .admission-card {
-        margin-bottom: 0px;
-        &:first-child{
-            .line2{
-                display: none;
-            }
-        }
     }
 
     .admission-smCard {

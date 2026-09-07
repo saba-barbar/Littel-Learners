@@ -22,7 +22,7 @@ function OurTeamCard({
                 </div>
 
                 <div className="message">
-                    <img src="/images/about/message.svg" alt="" />
+                    <img src="/images/about/message.webp" alt="" />
                 </div>
             </div>
 
