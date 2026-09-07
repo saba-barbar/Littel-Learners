@@ -20,7 +20,7 @@ export const OurTestimonialsData = [
         desc: "My son's social and academic growth has been remarkable since joining Little Learners Academy. I am grateful for the supportive and dedicated teachers."
     },
         {
-        icon:"/icons/OurTestimonialsIcon/IIcon (8).webp"  ,    
+        icon:"/icons/OurTestimonialsIcon/Icon (8).webp"  ,    
         title: "Emily K ",
         desc: "My son's social and academic growth has been remarkable since joining Little Learners Academy. I am grateful for the supportive and dedicated teachers."
     }

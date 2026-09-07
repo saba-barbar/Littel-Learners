@@ -181,3 +181,31 @@
         margin-bottom: 10px;
     }
 }
+
+@media (max-width:390px) {
+
+    .student-card {
+        max-height: 370px;
+        height: 370px;
+        padding: 18px;
+    }
+
+    .student-card img {
+        height: 191px;
+        margin-bottom: 20px;
+    }
+
+    .box {
+        width: 93px;
+        height: 237px;
+    }
+
+    .student-desc {
+        margin-top: 230px;
+    }
+
+    .student-desc h3 {
+        font-size: 22px; ;
+        margin-bottom: 10px;
+    }
+}

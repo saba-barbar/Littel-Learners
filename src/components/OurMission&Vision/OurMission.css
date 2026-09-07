@@ -113,3 +113,24 @@
         font-size: 30px;
     }
 }
+
+@media (max-width:390px) {
+
+    .m-v-Card {
+        height: 390px;
+        padding: 20px;
+    }
+
+    .subVission-container {
+        margin-bottom: 20px;
+    }
+
+    .subVission-container img {
+        width: 48px;
+        height: 40px;
+    }
+
+    .subVission-container h3 {
+        font-size: 25px;
+    }
+}

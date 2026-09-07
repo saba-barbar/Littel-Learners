@@ -133,5 +133,12 @@
     .AwardsContainer {
         height: 350px;
     }
+}
+
+@media (max-width: 390px) {
+
+    .award-slide .OurBenefetsCard {
+        height: 300px;
+    }
 
 }
