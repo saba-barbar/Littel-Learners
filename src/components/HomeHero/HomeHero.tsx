@@ -3,12 +3,11 @@ import HeroCard from "./HomeHeroCard";
 import "./HomeHero.css"
 import CountUp from "../CountUp/CountUp";
 
-
 function HomeHero() {
     return (
         <div className="hero">
             <div className="hero-img-wrapper" data-aos="fade-down">
-                <img className="hero-img" src="/Images/hero-image.webp" />
+                <img className="hero-img" src="/images/hero-image.webp" alt="Little Learners Academy" />
             </div>
             <HeroCard>
                 <div className="sub-hero">
